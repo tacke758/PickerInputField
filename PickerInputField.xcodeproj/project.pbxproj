@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E7633EE1643CC080075ACB6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7633ED1643CC080075ACB6 /* UIKit.framework */; };
+		5E7633F01643CC080075ACB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7633EF1643CC080075ACB6 /* Foundation.framework */; };
+		5E7633F21643CC080075ACB6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7633F11643CC080075ACB6 /* CoreGraphics.framework */; };
+		5E7633F81643CC080075ACB6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E7633F61643CC080075ACB6 /* InfoPlist.strings */; };
+		5E7633FA1643CC080075ACB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7633F91643CC080075ACB6 /* main.m */; };
+		5E7633FE1643CC080075ACB6 /* PFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7633FD1643CC080075ACB6 /* PFAppDelegate.m */; };
+		5E7634001643CC080075ACB6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E7633FF1643CC080075ACB6 /* Default.png */; };
+		5E7634021643CC080075ACB6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E7634011643CC080075ACB6 /* Default@2x.png */; };
+		5E7634041643CC080075ACB6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E7634031643CC080075ACB6 /* Default-568h@2x.png */; };
+		5E7634071643CC080075ACB6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E7634051643CC080075ACB6 /* MainStoryboard.storyboard */; };
+		5E76340A1643CC080075ACB6 /* PFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7634091643CC080075ACB6 /* PFViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E7633E91643CC080075ACB6 /* PickerInputField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickerInputField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E7633ED1643CC080075ACB6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5E7633EF1643CC080075ACB6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5E7633F11643CC080075ACB6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5E7633F51643CC080075ACB6 /* PickerInputField-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PickerInputField-Info.plist"; sourceTree = "<group>"; };
+		5E7633F71643CC080075ACB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5E7633F91643CC080075ACB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E7633FB1643CC080075ACB6 /* PickerInputField-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PickerInputField-Prefix.pch"; sourceTree = "<group>"; };
+		5E7633FC1643CC080075ACB6 /* PFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFAppDelegate.h; sourceTree = "<group>"; };
+		5E7633FD1643CC080075ACB6 /* PFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PFAppDelegate.m; sourceTree = "<group>"; };
+		5E7633FF1643CC080075ACB6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5E7634011643CC080075ACB6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5E7634031643CC080075ACB6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5E7634061643CC080075ACB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5E7634081643CC080075ACB6 /* PFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFViewController.h; sourceTree = "<group>"; };
+		5E7634091643CC080075ACB6 /* PFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PFViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E7633E61643CC080075ACB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E7633EE1643CC080075ACB6 /* UIKit.framework in Frameworks */,
+				5E7633F01643CC080075ACB6 /* Foundation.framework in Frameworks */,
+				5E7633F21643CC080075ACB6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E7633DE1643CC080075ACB6 = {
+			isa = PBXGroup;
+			children = (
+				5E7633F31643CC080075ACB6 /* PickerInputField */,
+				5E7633EC1643CC080075ACB6 /* Frameworks */,
+				5E7633EA1643CC080075ACB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E7633EA1643CC080075ACB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E7633E91643CC080075ACB6 /* PickerInputField.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E7633EC1643CC080075ACB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E7633ED1643CC080075ACB6 /* UIKit.framework */,
+				5E7633EF1643CC080075ACB6 /* Foundation.framework */,
+				5E7633F11643CC080075ACB6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E7633F31643CC080075ACB6 /* PickerInputField */ = {
+			isa = PBXGroup;
+			children = (
+				5E7633FC1643CC080075ACB6 /* PFAppDelegate.h */,
+				5E7633FD1643CC080075ACB6 /* PFAppDelegate.m */,
+				5E7634051643CC080075ACB6 /* MainStoryboard.storyboard */,
+				5E7634081643CC080075ACB6 /* PFViewController.h */,
+				5E7634091643CC080075ACB6 /* PFViewController.m */,
+				5E7633F41643CC080075ACB6 /* Supporting Files */,
+			);
+			path = PickerInputField;
+			sourceTree = "<group>";
+		};
+		5E7633F41643CC080075ACB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E7633F51643CC080075ACB6 /* PickerInputField-Info.plist */,
+				5E7633F61643CC080075ACB6 /* InfoPlist.strings */,
+				5E7633F91643CC080075ACB6 /* main.m */,
+				5E7633FB1643CC080075ACB6 /* PickerInputField-Prefix.pch */,
+				5E7633FF1643CC080075ACB6 /* Default.png */,
+				5E7634011643CC080075ACB6 /* Default@2x.png */,
+				5E7634031643CC080075ACB6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E7633E81643CC080075ACB6 /* PickerInputField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E76340D1643CC080075ACB6 /* Build configuration list for PBXNativeTarget "PickerInputField" */;
+			buildPhases = (
+				5E7633E51643CC080075ACB6 /* Sources */,
+				5E7633E61643CC080075ACB6 /* Frameworks */,
+				5E7633E71643CC080075ACB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PickerInputField;
+			productName = PickerInputField;
+			productReference = 5E7633E91643CC080075ACB6 /* PickerInputField.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E7633E01643CC080075ACB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PF;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = tacke;
+			};
+			buildConfigurationList = 5E7633E31643CC080075ACB6 /* Build configuration list for PBXProject "PickerInputField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5E7633DE1643CC080075ACB6;
+			productRefGroup = 5E7633EA1643CC080075ACB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E7633E81643CC080075ACB6 /* PickerInputField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E7633E71643CC080075ACB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E7633F81643CC080075ACB6 /* InfoPlist.strings in Resources */,
+				5E7634001643CC080075ACB6 /* Default.png in Resources */,
+				5E7634021643CC080075ACB6 /* Default@2x.png in Resources */,
+				5E7634041643CC080075ACB6 /* Default-568h@2x.png in Resources */,
+				5E7634071643CC080075ACB6 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E7633E51643CC080075ACB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E7633FA1643CC080075ACB6 /* main.m in Sources */,
+				5E7633FE1643CC080075ACB6 /* PFAppDelegate.m in Sources */,
+				5E76340A1643CC080075ACB6 /* PFViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5E7633F61643CC080075ACB6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E7633F71643CC080075ACB6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5E7634051643CC080075ACB6 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E7634061643CC080075ACB6 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E76340B1643CC080075ACB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5E76340C1643CC080075ACB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E76340E1643CC080075ACB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PickerInputField/PickerInputField-Prefix.pch";
+				INFOPLIST_FILE = "PickerInputField/PickerInputField-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5E76340F1643CC080075ACB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PickerInputField/PickerInputField-Prefix.pch";
+				INFOPLIST_FILE = "PickerInputField/PickerInputField-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E7633E31643CC080075ACB6 /* Build configuration list for PBXProject "PickerInputField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E76340B1643CC080075ACB6 /* Debug */,
+				5E76340C1643CC080075ACB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E76340D1643CC080075ACB6 /* Build configuration list for PBXNativeTarget "PickerInputField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E76340E1643CC080075ACB6 /* Debug */,
+				5E76340F1643CC080075ACB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E7633E01643CC080075ACB6 /* Project object */;
+}
