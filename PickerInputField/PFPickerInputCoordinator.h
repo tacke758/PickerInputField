@@ -1,5 +1,5 @@
 //
-//  PFAppDelegate.h
+//  PFPickerInputCoordinator.h
 //  PickerInputField
 //
 //  Created by Tacke on 2012/11/02.
@@ -16,10 +16,16 @@
  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface PFAppDelegate : UIResponder <UIApplicationDelegate>
+@interface PFPickerInputCoordinator : NSObject <UIPickerViewDataSource, UIPickerViewDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, strong) UITextField *managedTextField;
+@property (nonatomic, strong) NSArray *dataset;
+@property (nonatomic, strong) NSArray *datasetTitle;
+@property (nonatomic, readonly) NSArray *value;
+
+- (id)initWithTextField:(UITextField *)textField dataset:(NSArray *)dataset datasetTitle:(NSArray *)datasetTitle;
+- (void)selectRow:(NSInteger)row inComponent:(NSInteger)component animated:(BOOL)animated;
 
 @end

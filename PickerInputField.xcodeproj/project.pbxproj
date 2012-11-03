@@ -18,6 +18,7 @@
 		5E7634041643CC080075ACB6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E7634031643CC080075ACB6 /* Default-568h@2x.png */; };
 		5E7634071643CC080075ACB6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E7634051643CC080075ACB6 /* MainStoryboard.storyboard */; };
 		5E76340A1643CC080075ACB6 /* PFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7634091643CC080075ACB6 /* PFViewController.m */; };
+		5E7634121643CC2E0075ACB6 /* PFPickerInputCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7634111643CC2E0075ACB6 /* PFPickerInputCoordinator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,9 @@
 		5E7634061643CC080075ACB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		5E7634081643CC080075ACB6 /* PFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFViewController.h; sourceTree = "<group>"; };
 		5E7634091643CC080075ACB6 /* PFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PFViewController.m; sourceTree = "<group>"; };
+		5E7634101643CC2E0075ACB6 /* PFPickerInputCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFPickerInputCoordinator.h; sourceTree = "<group>"; };
+		5E7634111643CC2E0075ACB6 /* PFPickerInputCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFPickerInputCoordinator.m; sourceTree = "<group>"; };
+		5E7634201644C4600075ACB6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		5E7633DE1643CC080075ACB6 = {
 			isa = PBXGroup;
 			children = (
+				5E7634201644C4600075ACB6 /* README.md */,
 				5E7633F31643CC080075ACB6 /* PickerInputField */,
 				5E7633EC1643CC080075ACB6 /* Frameworks */,
 				5E7633EA1643CC080075ACB6 /* Products */,
@@ -89,6 +94,8 @@
 				5E7634081643CC080075ACB6 /* PFViewController.h */,
 				5E7634091643CC080075ACB6 /* PFViewController.m */,
 				5E7633F41643CC080075ACB6 /* Supporting Files */,
+				5E7634101643CC2E0075ACB6 /* PFPickerInputCoordinator.h */,
+				5E7634111643CC2E0075ACB6 /* PFPickerInputCoordinator.m */,
 			);
 			path = PickerInputField;
 			sourceTree = "<group>";
@@ -177,6 +184,7 @@
 				5E7633FA1643CC080075ACB6 /* main.m in Sources */,
 				5E7633FE1643CC080075ACB6 /* PFAppDelegate.m in Sources */,
 				5E76340A1643CC080075ACB6 /* PFViewController.m in Sources */,
+				5E7634121643CC2E0075ACB6 /* PFPickerInputCoordinator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +232,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -244,7 +252,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -292,6 +300,7 @@
 				5E76340F1643CC080075ACB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
